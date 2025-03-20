@@ -1,1 +1,1 @@
-web: gunicorn crochethub.wsgi
+web gunicorn crochethub.wsgi: application --log-file -
